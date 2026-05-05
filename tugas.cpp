@@ -39,3 +39,29 @@ public:
         cout << "-----------------------------" << endl;
     }
 };
+
+int main() {
+    cout << "=== Data Inisialisasi Kendaraan ===" << endl << endl;
+
+    // Membuat objek dengan constructor tanpa parameter
+    Kendaraan k1;
+    cout << "Objek 1 (Default):" << endl;
+    k1.tampilkanInfo();
+
+    // Membuat objek dengan constructor ID saja
+    Kendaraan k2(101);
+    cout << "Objek 2 (Hanya ID):" << endl;
+    k2.tampilkanInfo();
+
+    // Membuat objek dengan constructor Nama saja
+    Kendaraan k3("Yamaha RX-King");
+    cout << "Objek 3 (Hanya Nama):" << endl;
+    k3.tampilkanInfo();
+
+    // Membuat objek dengan constructor lengkap
+    Kendaraan k4(202, "Tesla Model S");
+    cout << "Objek 4 (Lengkap):" << endl;
+    k4.tampilkanInfo();
+
+    return 0;
+}
