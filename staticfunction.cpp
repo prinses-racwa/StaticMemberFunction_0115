@@ -14,3 +14,9 @@ class Buku {
             return this->judul;
         }
 };
+
+int main() {
+    Buku b;
+    cout << b.setJudul("Matematika").getJudul() << endl; // chain function call
+    return 0;
+}
