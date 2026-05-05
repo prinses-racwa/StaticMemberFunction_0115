@@ -13,3 +13,9 @@ class Mahasiswa {
         Mahasiswa(int nim, string nama);
         void cetak();
 };
+
+Mahasiswa::Mahasiswa() {}
+
+Mahasiswa::Mahasiswa(int inim) {
+    nim = inim;
+}
