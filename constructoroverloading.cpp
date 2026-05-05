@@ -27,3 +27,21 @@ void Mahasiswa::cetak() {
     cout << "NIM    : " << nim << endl;
     cout << "Nama   : " << nama << endl;
 }
+
+int main() {
+    Mahasiswa mhs1(5);
+    Mahasiswa mhs2("Haidar");
+    Mahasiswa mhs3(23, "Haidar");
+
+    cout << "============================" << endl;
+    cout << "Mahasiswa 1 : ";  cout << endl;
+    mhs1.cetak(); cout << endl;
+    cout << "Mahasiswa 2 : ";  cout << endl;
+    mhs2.cetak(); cout << endl;
+    cout << "Mahasiswa 3 : ";  cout << endl;
+    mhs3.cetak();
+    cout << "============================" << endl;
+
+
+    return 0;
+}
