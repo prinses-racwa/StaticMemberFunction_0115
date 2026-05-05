@@ -9,3 +9,10 @@ class Buku {
             return this->judul; // return nilai member variabel 'judul'
         }
 };
+
+int main() {
+    Buku b;
+    cout << b.setget("Matematika");
+
+    return 0;
+}
