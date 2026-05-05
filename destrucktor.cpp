@@ -35,3 +35,18 @@ public:
         nama=pnama;
     }
 };
+
+int main(){
+    cout << "--daftar inventaeis toko-- "<< endl;
+    produk produk1;
+    produk produk2 (3);
+    produk produk3 ("meja");
+    produk produk4 (4, "kursi");
+
+    produk1.tampilkan();
+    produk2.tampilkan();
+    produk3.tampilkan();
+    produk4.tampilkan(); 
+
+    return 0;
+}
